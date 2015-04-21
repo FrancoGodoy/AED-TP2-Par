@@ -1,4 +1,6 @@
-
+/* Godoy Franco 
+Curso K1051
+14/04/2015*/
 #include <iostream>
 
 using namespace std;
@@ -9,7 +11,6 @@ int main()
 	cout << "Ingrese un numero: ";
 	cin >> a;
 	b = a%2;
-	cout << b << endl;
 	
 	if(b=0)
 	{
