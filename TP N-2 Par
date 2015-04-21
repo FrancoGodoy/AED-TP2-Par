@@ -1,0 +1,25 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int a, b;
+	cout << "Ingrese un numero: ";
+	cin >> a;
+	b = a%2;
+	cout << b << endl;
+	
+	if(b=0)
+	{
+		cout << "El numero ingresado es par" << endl;
+	}
+	else
+	{
+		cout << "El numero ingresado es impar" << endl;
+	}
+
+
+	return 0;
+}
