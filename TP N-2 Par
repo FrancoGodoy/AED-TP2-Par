@@ -12,13 +12,13 @@ int main()
 	cin >> a;
 	b = a%2;
 	
-	if(b=0)
+	if(b!=0)
 	{
-		cout << "El numero ingresado es par" << endl;
+		cout << "El numero ingresado es impar" << endl;
 	}
 	else
 	{
-		cout << "El numero ingresado es impar" << endl;
+		cout << "El numero ingresado es par" << endl;
 	}
 
 
